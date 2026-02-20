@@ -1,0 +1,51 @@
+[INFO] MLOps task initialized
+2026-02-20 16:59:01,019 - INFO - Job started
+2026-02-20 16:59:01,019 - INFO - Input file: data.csv
+2026-02-20 16:59:01,021 - INFO - Config file: config.yaml
+2026-02-20 16:59:01,021 - INFO - Output file: metrics.json
+2026-02-20 16:59:01,021 - INFO - Log file: run.log
+2026-02-20 16:59:01,021 - INFO - Job finished successfully
+2026-02-20 16:59:28,319 - INFO - Job started
+2026-02-20 16:59:28,319 - INFO - Input file: data.csv
+2026-02-20 16:59:28,319 - INFO - Config file: config.yaml
+2026-02-20 16:59:28,319 - INFO - Output file: metrics.json
+2026-02-20 16:59:28,319 - INFO - Log file: run.log
+2026-02-20 16:59:28,319 - INFO - Job finished successfully
+2026-02-20 17:03:21,542 - INFO - Job started
+2026-02-20 17:03:21,871 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 17:03:21,872 - INFO - Input file: data.csv
+2026-02-20 17:03:21,872 - INFO - Config file: config.yaml
+2026-02-20 17:03:21,872 - INFO - Output file: metrics.json
+2026-02-20 17:03:21,872 - INFO - Log file: run.log
+2026-02-20 17:03:21,872 - INFO - Job finished successfully
+2026-02-20 17:06:05,355 - INFO - Job started
+2026-02-20 17:06:05,355 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 17:06:05,403 - ERROR - Error loading input data: Required column 'close' not found in dataset.
+2026-02-20 17:17:49,299 - INFO - Job started
+2026-02-20 17:17:49,299 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 17:17:49,311 - ERROR - Error loading input data: Required column 'close' not found in dataset.
+2026-02-20 17:22:39,177 - INFO - Job started
+2026-02-20 17:22:39,177 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 17:22:39,193 - INFO - Data loaded: 7 rows
+2026-02-20 17:22:39,204 - INFO - Rolling mean calculated with window=5
+2026-02-20 17:25:03,270 - INFO - Job started
+2026-02-20 17:25:03,271 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 17:25:03,276 - INFO - Data loaded: 7 rows
+2026-02-20 17:25:03,277 - INFO - Rolling mean calculated with window=5
+2026-02-20 17:25:03,278 - INFO - Signals generated
+2026-02-20 17:25:03,279 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
+2026-02-20 17:25:03,279 - INFO - Job completed successfully in 9ms
+2026-02-20 17:29:07,624 - INFO - Job started
+2026-02-20 17:29:07,625 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 17:29:07,630 - INFO - Data loaded: 7 rows
+2026-02-20 17:29:07,631 - INFO - Rolling mean calculated with window=5
+2026-02-20 17:29:07,631 - INFO - Signals generated
+2026-02-20 17:29:07,632 - INFO - Metrics: signal_rate=0.42857142857142855, rows_processed=7
+2026-02-20 17:29:07,632 - INFO - Job completed successfully in 8ms
+2026-02-20 17:30:22,044 - INFO - Job started
+2026-02-20 17:30:22,045 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 17:30:22,050 - INFO - Data loaded: 7 rows
+2026-02-20 17:30:22,050 - INFO - Rolling mean calculated with window=5
+2026-02-20 17:30:22,051 - INFO - Signals generated
+2026-02-20 17:30:22,051 - INFO - Metrics: signal_rate=0.42857142857142855, rows_processed=7
+2026-02-20 17:30:22,051 - INFO - Job completed successfully in 9ms
